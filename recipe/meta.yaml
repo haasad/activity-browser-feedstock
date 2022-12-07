@@ -37,11 +37,7 @@ requirements:
 test:
   imports:
     - activity_browser
-  requires:
-    - pip
-  commands:
-    - pip check
-    # No test of activity-browser as no --help or --version available
+  # No test of activity-browser as no --help or --version available
 
 about:
   home: https://github.com/LCA-ActivityBrowser/activity-browser
