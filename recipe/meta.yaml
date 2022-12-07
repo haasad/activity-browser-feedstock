@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   entry_points:
     - activity-browser = activity_browser:run_activity_browser
 
@@ -37,11 +37,7 @@ requirements:
 test:
   imports:
     - activity_browser
-  requires:
-    - pip
-  commands:
-    - pip check
-    # No test of activity-browser as no --help or --version available
+  # No test of activity-browser as no --help or --version available
 
 about:
   home: https://github.com/LCA-ActivityBrowser/activity-browser
