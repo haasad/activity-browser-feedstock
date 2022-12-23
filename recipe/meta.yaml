@@ -22,15 +22,15 @@ requirements:
     - python >=3.8,<3.10
     - setuptools
   run:
+    - python >=3.8,<3.10
     - arrow
     - brightway2 >=2.4.2
+    - pyperclip
     - eidl >=1.4.2
     - networkx
-    - presamples
-    - pyperclip
-    - pyqtwebengine
-    - pyside2 >=5.13.1
-    - python >=3.8,<3.10
+    - pyside2 >=5.15.5
+    - qt-webengine >=5.15.4
+    - numpy =1.23.5
     - salib >=1.4
     - seaborn
 
